@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Serif:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- fonts -->
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <link rel="stylesheet" href="CSS/slick.css" />
+  <link rel="stylesheet" href="CSS/aos.css" />
+  <link rel="stylesheet" href="CSS/venobox.min.css" />
+
+
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="CSS/responsive.css" />
+</head>
+
+<body style="background-color: black;">
+  <!-- preloader -->
+  <!-- <div class="preloader">
+  </div> -->
+  <!-- preloader -->
+
+  <!-- cursor -->
+  <div class="container">
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+  </div>
+  <!-- cursor -->
+
+  <!-- scroll to top  -->
+  <div class="container">
+    <div class="bk_top">
+      <i class="fa-solid fa-angles-up"></i>
+    </div>
+  </div>
+  <!-- scroll to top  -->
+
+  <!-- scroll down -->
+  <div class="container">
+    <div class="scroll_down">
+      <div class="mouse">
+        <span></span>
+      </div>
+      <div class="arrow">
+        <span></span>
+        <span></span>
+
+      </div>
+    </div>
+  </div>
+  <!-- scroll down -->
+
+
+
+  <!-- menu_part start  -->
+  <nav class="navbar navbar-expand-lg p-lg-0 menu_bg" data-aos="fade-down" data-aos-duration="1000">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <p>G.M. <span>Alvi</span> Siddique</p>
+      </a>
+      <div class="clrplt">
+
+        <i class="fa-solid fa-palette">
+          <ul>
+            <li>
+              <div class="colors" id="blue" data-color="#2986cc"></div>
+            </li>
+            <li>
+              <div class="colors" id="green" data-color="#ffd700"></div>
+            </li>
+            <li>
+              <div class="colors" id="yellow" data-color="#25dd0d"></div>
+            </li>
+            <li>
+              <div class="colors" id="red" data-color="#ff0000"></div>
+            </li>
+          </ul>
+        </i>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_part">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service_part">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Gallery_part">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feedback_part">Client's feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_part">Contact Me</a>
+          </li>
+        </ul>
+
+
+      </div>
+
+
+
+    </div>
+  </nav>
+  <!-- menu_part end  -->
+
+  <!-- banner_part start  -->
+  <section id="banner_part">
+    <div class="banner_main">
+      <div class="banners">
+        <div class="banner_images" style="background: url(images/banner1.png) no-repeat center/ cover ;">
+        </div>
+      </div>
+      <div class="banners">
+        <div class="banner_images" style="background: url(images/banner2.jpg) no-repeat center/ cover ;">
+        </div>
+      </div>
+      <div class="banners">
+        <div class="banner_images" style="background: url(images/banner3.jpg) no-repeat center/ cover ;">
+        </div>
+      </div>
+      <div class="banners">
+        <div class="banner_images" style="background: url(images/banner4.jpg) no-repeat center/ cover ;">
+        </div>
+      </div>
+      <div class="banners">
+        <div class="banner_images" style="background: url(images/banner1.jpg) no-repeat center/ cover ;">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="typed_part">
+        <div id="typed-strings">
+          <p>Hey <span>there!</span></p>
+          <p>I am <span>Alvi</span></p>
+          <p>I can build your <span>website</span></p>
+          <p>I can design <span>UI/UX</span> for you</p>
+        </div>
+        <span id="typed"></span>
+      </div>
+      <div class="features text-center">
+        <div class="card" data-aos="slide-up" data-aos-delay="0" data-aos-duration="1000">
+          <div class="card-body">
+            <i class="fa-regular fa-clock"></i>
+            <h5 class="card-title">24/7 Services</h5>
+            <p class="card-text">I'll be providing you 24/7 service, my team is always ready to help you.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="slide-up" data-aos-delay="200" data-aos-duration="1000">
+          <div class="card-body">
+            <i class="fa-solid fa-bolt"></i>
+            <h5 class="card-title">Fast Performance</h5>
+            <p class="card-text">The themes are Lighter &amp; Faster, so that you can have a smooth experience</p>
+          </div>
+        </div>
+        <div class="card" data-aos="slide-up" data-aos-delay="400" data-aos-duration="1000">
+          <div class="card-body">
+            <div class="resp_icons">
+              <i class="fa-solid fa-tablet-screen-button"></i>
+              <i class="fa-solid fa-laptop"></i>
+              <i class="fa-solid fa-mobile"></i>
+            </div>
+            <h5 class="card-title">Responsive</h5>
+            <p class="card-text">The themes are fully respnsived, perfectly compitable with every device</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- banner_part end  -->
+
+  <!-- about_part start  -->
+  <section id="about_part">
+    <div class="container about_sm text-center" data-aos="fade-up" data-aos-duration="1000">
+      <div class="row justify-content-end">
+        <div class="col-lg-6 col-md-10 col-sm-12 col-xl-6">
+          <div class="section_title">
+            <h3>About Me</h3>
+          </div>
+          <p>I am a professional full stack web developer and UI/UX designer. I have 3+ years of experience in UI/UX
+            Design,
+            Web design, and Development and successfully completed 100+ projects in the local and international
+            market.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ab vel alias quibusdam iure, tenetur
+            blanditiis perspiciatis porro suscipit voluptates consectetur sapiente, asperiores quaerat reprehenderit
+            quod nesciunt officiis fugit dolore necessitatibus. Nulla rem id iste earum vitae quo odit nisi
+            excepturi at porro? Quae culpa libero alias repellat sapiente vero, possimus consequuntur praesentium
+            <span>
+              provident velit veniam. Soluta culpa doloribus laboriosam ad sint quo temporibus necessitatibus ducimus
+              modi repellendus adipisci, facere, deserunt corporis rem quas officia. Porro nisi rerum laudantium
+              possimus, recusandae magni commodi cum dolorum suscipit, consequatur magnam molestias amet et sit
+              quibusdam minus. Velit, sunt? Itaque quibusdam voluptates placeat? Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Natus, in dolorem quod recusandae inventore commodi alias magni facere laboriosam
+              incidunt totam harum eum suscipit illo a illum atque dolore! Dolor, iusto eos at iste accusamus quibusdam
+              cumque laudantium quis eveniet!
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about_part end  -->
+
+  <!-- service_part start  -->
+  <section id="service_part">
+    <div id="particles-js">
+      <div class="service_main" data-aos="fade-up" data-aos-duration="3000">
+        <div class="section_title">
+          <h3>Services</h3>
+        </div>
+        <div class="container service_inner">
+          <div class="row text-center mb-5">
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>Web Design</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>Web Development</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>UI Design</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>UX Design</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>Business Consultancy</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>E-mail Signature</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>Logo Making</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4">
+              <div class="service_card">
+                <h6>SEO Marketing</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4 service_last_sm">
+              <div class="service_card">
+                <h6>Social Media Marketing</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga unde nihil optio quos nulla maxime
+                  possimus, dolores recusandae accusantium deserunt.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- service_part end  -->
+
+  <!-- Gallery_part start  -->
+  <section id="Gallery_part">
+    <div class="section_title" data-aos="fade-up" data-aos-duration="2000">
+      <h3>Gallery</h3>
+    </div>
+    <div class="gallery_inner" data-aos="slide-right" data-aos-duration="2000" data-aos-delay="200">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="mixitup">
+              <div class="mix_bg">
+                <div class="container">
+                  <button type="button" data-filter="all">All</button>
+                  <button type="button" data-filter=".category-a">Websites Designs</button>
+                  <button type="button" data-filter=".category-b">UI/UX Design</button>
+                  <button type="button" data-filter=".category-c">Logo Making</button>
+
+
+                  <button type="button" data-sort="order:asc">
+                    <i class="fas fa-chevron-up"></i>
+                  </button>
+                  <button type="button" data-sort="order:descending">
+                    <i class="fas fa-chevron-down"></i>
+                  </button>
+                  <button type="button" data-sort="random">
+                    <i class="fas fa-infinity"></i>
+                  </button>
+
+                  <div class="mixfilter venobox">
+
+
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-a category-b"
+                      href="images/gallery1.jpg" data-order="1">
+                      <img src="images/gallery1.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-a category-c"
+                      href="images/gallery2.jpg" data-order="2">
+                      <img src="images/gallery2.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-c" href="images/gallery3.jpg"
+                      data-order="3">
+                      <img src="images/gallery3.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-c" href="images/gallery4.jpg"
+                      data-order="4">
+                      <img src="images/gallery4.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-b category-a"
+                      href="images/gallery5.jpg" data-order="5">
+                      <img src="images/gallery5.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-c" href="images/gallery6.jpg"
+                      data-order="6">
+                      <img src="images/gallery6.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-b category-a"
+                      href="images/gallery7.jpg" data-order="7">
+                      <img src="images/gallery7.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-b" href="images/gallery8.jpg"
+                      data-order="8">
+                      <img src="images/gallery8.jpg" alt="" />
+                    </a>
+
+                    <a class="col-lg-2 col-sm-4 ms-lg-1 my-image-links mix category-b" href="images/gallery9.jpg"
+                      data-order="9">
+                      <img src="images/gallery9.jpg" alt="" />
+                    </a>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery_part end  -->
+
+  <!-- Feedback_part start  -->
+
+  <section id="review">
+    <div class="section_title">
+      <h3>Client's Feedback</h3>
+    </div>
+    <div class="review_slider">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="small_slider col-xl-3 col-3">
+            <div class="client">
+              <img src="images/img-1.png" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-2.png" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-3.png" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-4.png" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-5.png" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-6.jpg" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-7.jpg" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-8.jpg" alt="">
+            </div>
+            <div class="client">
+              <img src="images/img-9.jpg" alt="">
+            </div>
+          </div>
+          <div class="big_slider col-xl-9 col-9">
+
+            <div class="reviw_inner">
+              <div class="headline">John</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">Ashley</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, nam.</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">Ricardo</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Repudiandae rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus perferendis doloribus, asperiores nostrum sed reiciendis magnam sequi perspiciatis earum voluptatem? deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">Kathie</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">Charlie</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum a incidunt ex tempora, ea ducimus!
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">Siyabonga</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, in?</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">george</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">Charlotte</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, quis! Unde, possimus! Voluptatem inventore animi voluptatibus ducimus neque expedita facilis. Laudantium ipsum voluptatem velit dolorem itaque. Voluptatem, quis nam. Ratione.</p>
+            </div>
+            <div class="reviw_inner">
+              <div class="headline">Yua</div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae temporibus ipsa itaque fuga,
+                voluptatum in.
+                Repudiandae rerum deleniti reprehenderit quisquam placeat beatae natus harum quo, ex deserunt
+                blanditiis
+                tempore eos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Feedback_part end  -->
+
+  <!-- contact_part start  -->
+  <section id="contact_part">
+    <div class="section_title">
+      <h3>Contact Me</h3>
+    </div>
+    <div class="container">
+      <ul class="row justify-content-center">
+        <li class="col-lg-1 col-sm-2"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li class="col-lg-1 col-sm-2 "><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li class="col-lg-1 col-sm-2 "><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li class="col-lg-1 col-sm-2 "><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="col-lg-1 col-sm-2 "><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- contact_part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  <!-- _part start  -->
+  <!-- _part end  -->
+
+  </div>
+
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- plugins start -->
+  <script src="js/slick.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/venobox.min.js"></script>
+
+  <!-- <script src="js/TweenMax.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/TextPlugin.min.js"></script>
+  <script src="js/demo.js"></script> -->
+
+  <script>
+    var config = document.querySelector(".mixfilter");
+    var mixer = mixitup(config);
+  </script>
+
+  <!-- Typed JS use krte hbe -->
+
+
+
+  <!-- plugins end -->
+
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
